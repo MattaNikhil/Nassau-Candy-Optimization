@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 #Load Dataset
-df = pd.read_csv(r'D:\Nassau Candy Factory\Nassau Candy Distributor.csv')
+df = pd.read_csv('Nassau Candy Distributor.csv')
 print(df.head())
 print(df.columns)
 
